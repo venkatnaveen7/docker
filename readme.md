@@ -45,7 +45,7 @@ docker run -d -e MYSQL_ROOT_PASSWORD=dummypassword -e MYSQL_USER=todos-user -e M
 - Image is static
 - Container is dynamic
 
-```
+``` docker system df To Total images containers See system 
   649  docker run in28min/todo-rest-api-h2:1.0.0.RELEASE
   650  docker run -p 5000:5000 in28min/todo-rest-api-h2:1.0.0.RELEASE
   651  clear
